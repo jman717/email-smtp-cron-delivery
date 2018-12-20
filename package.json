@@ -1,14 +1,13 @@
 {
   "name": "email-smtp-cron-delivery",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "send emails via configurable appenders",
   "main": "app.js",
   "start": "node app.js",
   "dependencies": {
     "colors": "*",
     "events": "^3.0.0",
-    "log4js": "^2.3.12",
-    "log4js-tagline": "^1.5.1",
+    "log4js-tagline": "^1.6.2",
     "cron": "^1.5.0",
     "smtp-email-sender": "^1.0.0"
   },
