@@ -194,11 +194,8 @@ module.exports = class email_smtp_cron_delivery {
       a = t.appenders_dir + type + '.js';
       console.log('email_smtp_cron_delivery appenders=' + a.cyan)
       x = require(a)
-//console.log('debug 44.00')
       o = new x(arguments[0]).init()
-//console.log('debug 44.01')
       t.appender_objects[t.appender_objects.length] = o
-//console.log('debug 44.02')
 			return o
 		}catch(e){
       m = 'email_smtp_cron_delivery.appender error: ' + e.message

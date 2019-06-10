@@ -7,7 +7,7 @@
   "dependencies": {
     "colors": "*",
     "events": "^3.0.0",
-    "log4js-tagline": "^2.1.5",
+    "log4js-tagline": "^2.1.7",
     "cron": "^1.5.0",
     "smtp-email-sender": "^1.0.0"
   },
