@@ -1,15 +1,31 @@
 {
   "name": "email-smtp-cron-delivery",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "send emails via configurable appenders",
   "main": "app.js",
   "start": "node app.js",
   "dependencies": {
     "colors": "*",
     "events": "^3.0.0",
-    "log4js-tagline": "^2.1.11",
+    "log4js-tagline": "^2.1.15",
     "cron": "^1.1.1",
     "smtp-email-sender": "^1.0.0"
+  },
+  "keywords": [
+    "logging",
+    "log",
+    "log4js-tagline",
+    "appenders",
+    "node",
+    "email",
+    "smtp",
+    "cron",
+    "datadog"
+  ],
+  "homepage": "https://github.com/jman717/email-smtp-cron-delivery",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jman717/email-smtp-cron-delivery.git"
   },
   "author": "Jim Manton",
   "email": "jrman@risebroadband.net",
